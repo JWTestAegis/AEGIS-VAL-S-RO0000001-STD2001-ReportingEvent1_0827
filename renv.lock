@@ -1,0 +1,43 @@
+{
+  "R": {
+    "Version": "4.5.1",
+    "Repositories": [
+      {
+        "Name": "INHOUSE",
+        "URL": "https://aegisrspm.aegis-web-dev.tcci-int.chugai-pharm.co.jp/aegis-R4.5.1-dev/__linux__/noble/latest"
+      }
+    ]
+  },
+  "Packages": {
+    "P01": {
+      "Package": "P01",
+      "Version": "2.5.1",
+      "Source": "Repository",
+      "Repository": "INHOUSE",
+      "Requirements": [
+        "R"
+      ],
+      "Hash": "470851b6d5d0ac559e9d01bb352b4021"
+    },
+    "P02": {
+      "Package": "P02",
+      "Version": "2.5.2",
+      "Source": "Repository",
+      "Repository": "DEV-REPO",
+      "Requirements": [
+        "R"
+      ],
+      "Hash": "470851b6d5d0ac559e9d01bb352b4021"
+    },
+    "renv": {
+      "Package": "renv",
+      "Version": "1.0.0",
+      "Source": "Repository",
+      "Repository": "https://renv.com",
+      "Requirements": [
+        "R"
+      ],
+      "Hash": "470851b6d5d0ac559e9d01bb352b4021"
+    }
+  }
+}
